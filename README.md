@@ -17,11 +17,11 @@ Simply remap your default autoload to the mobile one. `Resource Remaps` is under
 
 As long as your autoloads have the same functions, variables, signals, etc., your external calling code will not care about which underlying version gets called. This could be very useful for multiplayer, achievements, or other systems that are platform specific.
 
-``
+```
 extends Node3D
 
 @onready var label: Label = %Label
 
 func _on_button_pressed() -> void:
 	label.text = SomeAutoload.get_thing()
-``
+```
