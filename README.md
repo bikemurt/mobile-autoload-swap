@@ -1,6 +1,6 @@
 # mobile-autoload-swap
 
-This repo uses the [Resource Remaps](https://godotengine.org/asset-library/asset/3451) plugin to test swapping autoload resources for the mobile build.
+This repo uses the [Resource Remaps](https://godotengine.org/asset-library/asset/3451) plugin to test swapping autoload resources for the mobile build. It generalizes to any platform type, but this is what I specifically wanted to test in my case. I will have different code for multiplayer, achievements, etc., based on if the build is for Desktop or for Mobile. So this setup allows me to swap autoloads at Export time to achieve that. You still get to use static typing since the autoload name is the same for all platforms.
 
 ## Autoload Setup
 - Install the Resource Remaps plugin and enable it
