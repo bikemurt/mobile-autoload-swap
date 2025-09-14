@@ -29,5 +29,5 @@ func _on_button_pressed() -> void:
 ### PC Version
 <img width="1152" height="648" alt="image" src="https://github.com/user-attachments/assets/19c02830-b193-4f83-853f-6b0acd6e9176" />
 
-### Mobile Version
-<img width="2340" height="1080" alt="image" src="https://github.com/user-attachments/assets/be89c351-d8db-4e36-bbe3-152c819665b8" />
+### Mobile Version (image is cropped)
+<img width="1371" height="736" alt="image" src="https://github.com/user-attachments/assets/30edacc6-6ebc-473f-b728-1b34b65c45ec" />
