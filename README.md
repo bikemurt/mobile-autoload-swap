@@ -3,7 +3,7 @@
 This repo uses the [Resource Remaps](https://godotengine.org/asset-library/asset/3451) plugin to test swapping autoload resources for the mobile build.
 
 ## Autoload Setup
-- Create an autoload on the Desktop build as you normally would. Add it to Project Settings -> Globals -> Autoload
+- Create an autoload on the Desktop build as you normally would. Add it to Project Settings -> Globals -> Autoload`
 - In your code, interact with the autoload as normal
 - Make sure to wrap the autoload script in a `Node` .tscn file. The Resource Remaps addon does not allow swapping script files on export, but it does allow swapping scenes
 
